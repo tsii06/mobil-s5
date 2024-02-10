@@ -1,0 +1,26 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr)); /* 3 colonnes avec taille minimale de 100px */
+    gap: 10px; /* Espace entre les éléments */
+}
+
+.grid-item {
+    width: 100%; /* Pour remplir la largeur de la colonne */
+    height: auto; /* Pour ajuster la hauteur en fonction de la largeur */
+}
+.detail-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr)); /* 3 colonnes avec taille minimale de 100px */
+    gap: 10px; /* Espace entre les éléments */
+}
+.toolbar-content {
+    display: flex;
+    justify-content: space-around;
+}
+.statut-grid{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}

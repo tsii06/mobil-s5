@@ -1,0 +1,46 @@
+[
+    {
+        "idAnnonce": 2,
+        "dateAnnonce": [
+            2022,
+            1,
+            17,
+            8,
+            0
+        ],
+        "utilisateur": {
+            "idUtilisateur": 1,
+            "nom": "tsiory",
+            "adresse": "ds",
+            "email": "tsiory@gmail.com",
+            "contact": "dss",
+            "mdp": "123",
+            "cin": "sds"
+        },
+        "voiture": {
+            "idVoiture": 1,
+            "marque": {
+                "idMarque": 1,
+                "nom": "Team DIOR"
+            },
+            "categorie": {
+                "idCategorie": 2,
+                "nom": "Tsiory Mano"
+            },
+            "modele": {
+                "idModele": 2,
+                "nom": "Team DIOR"
+            },
+            "carburant": {
+                "idCarburant": 2,
+                "nom": "Team DIOR"
+            },
+            "annee": 2020,
+            "kilometrage": 10000.0,
+            "nombrePlace": 4,
+            "prix": 20000.0
+        },
+        "statut": 1,
+        "description": "Annonce 1 description"
+    }
+]
